@@ -216,7 +216,8 @@ i.fa-solid.search_filters_filter_icon {
 
 .search_filters_filter_title {
   background-color: transparent;
-  padding: 5px 20px;
+  padding: 5px 10px 5px 10px;
+  font-size: 17px;
 }
 
 /* FILTERS */
