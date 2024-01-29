@@ -2,7 +2,7 @@
   /* PAGE */
 
   html {
-    min-width: 450px;
+    min-width: 320px;
     max-width: 768px;
     margin: 0;
   }
@@ -97,6 +97,11 @@
   /* FORM */
 
   /* FILTERS */
+
+  .btn-filtres {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .search_filters {
     margin: 5px 0px 10px 0px;
