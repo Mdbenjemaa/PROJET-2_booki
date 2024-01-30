@@ -68,7 +68,8 @@ li {
 }
 
 .header_img {
-  height: 50px;
+  height: 25px;
+  margin-top: 20px;
   padding-top: 20px;
   padding-left: 15px;
 }
