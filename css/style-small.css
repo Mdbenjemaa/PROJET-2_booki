@@ -30,8 +30,7 @@
 
   .header_img {
     margin: auto;
-    width: 150px;
-    padding-top: 20px;
+    margin-top: 20px;
   }
 
   .header_nav {
@@ -114,6 +113,9 @@
     margin: 5px 15px;
   }
 
+  .search_filters_filter_title {
+    font-size: 13px;
+  }
   /* FILTERS */
 
   /* HOSTING */

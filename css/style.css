@@ -1,15 +1,4 @@
 /* PAGE */
-
-@font-face {
-  font-family: "Raleway-Regular";
-  src: url("font/Raleway-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Raleway-Bold";
-  src: url("font/Raleway-Bold.ttf");
-}
-
 /* Déclaration des variable css */
 
 :root {
@@ -26,8 +15,9 @@ html {
 }
 
 body {
-  font-family: "Raleway-Regular", "Sans serif";
+  font-family: "Raleway", sans-serif;
   margin: -15px 0px 0px 0px;
+  font-size: larger;
 }
 
 main {
@@ -53,9 +43,8 @@ button {
 li {
   list-style-type: none;
 }
-
 .Raleway_bold {
-  font-family: "Raleway-Bold";
+  font-family: "Raleway", sans-serif;
 }
 
 /* PAGE */
@@ -495,7 +484,8 @@ i.fa-solid.search_filters_filter_icon {
 
 .footer_containers {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 150px;
 }
 
 .footer_container {
